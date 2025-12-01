@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato – EcoEnergia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./img/Icon_Logo.ico" type="image/x-icon"/>
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <header class="barra-navegacao">
+    <a class="logo" href="index.html">
+      <img src="img/Logo_projeto.jpeg" alt="Logo EcoEnergia" />
+    </a>
+
+    <nav class="links-navegacao">
+      <a href="index.html">Início</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="solucoes.html">Soluções</a>
+      <a class="ativo" href="contato.html">Contato</a>
+      <a href="trabalhe-conosco.html">Trabalhe Conosco</a>
+      <a href="login.html" class="btn-auth">Login</a>
+      <a href="register.html" class="btn-auth">Registrar</a>
+      <button id="alternar-tema" class="btn-tema" aria-label="Alternar tema">🌙</button>
+    </nav>
+  </header>
+
+  <!-- CABEÇALHO DA PÁGINA -->
+  <section class="quem-somos-cabecalho">
+    <h1>Entre em Contato</h1>
+    <p>Fale com a nossa equipe e leve tecnologia sustentável para sua cidade ou organização.</p>
+  </section>
+
+  <!-- FORMULÁRIO DE CONTATO -->
+  <section class="secao-formulario">
+    <div class="formulario-container">
+
+      <h2>Envie sua mensagem</h2>
+
+      <form class="formulario-contato" action="#" method="post">
+        
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required placeholder="Seu melhor e-mail">
+
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" name="assunto" required placeholder="Sobre o que deseja falar?">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="6" required placeholder="Digite sua mensagem"></textarea>
+
+        <button type="submit" class="botao-primario">Enviar Mensagem</button>
+
+      </form>
+
+    </div>
+  </section>
+
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <div class="links-rodape">
+      <a href="index.html">Início</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="solucoes.html">Soluções</a>
+      <a href="contato.html">Contato</a>
+      <a href="trabalhe-conosco.html">trabalhe Conosco</a>
+    </div>
+    <p>© 2025 Ecobots. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
